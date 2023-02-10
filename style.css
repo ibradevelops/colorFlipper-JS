@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main h1 {
+  font-size: 4.8rem;
+}
+main button {
+  background-color: transparent;
+  padding: 1rem 2.4rem;
+  margin-top: 4.2rem;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+  border: 0.3rem solid black;
+  cursor: pointer;
+  transition: all 0.1s;
+  font-weight: bold;
+}
+main button:active {
+  transform: scale(1.025);
+}
+main h2 {
+  margin-top: 2rem;
+  font-size: 2.6rem;
+}/*# sourceMappingURL=style.css.map */
